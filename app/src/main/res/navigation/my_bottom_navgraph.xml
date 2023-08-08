@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_tab_navgraph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/prescriptionsFragment"
+        android:name="com.example.e_comm_home_demo_app.ui.prescriptions.PrescriptionsFragment"
+        android:label="PrescriptionsFragment" />
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.example.e_comm_home_demo_app.ui.categories.CategoryFragment"
+        android:label="CategoryFragment" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.e_comm_home_demo_app.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/offersFragment"
+        android:name="com.example.e_comm_home_demo_app.ui.offers.OffersFragment"
+        android:label="OffersFragment" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.e_comm_home_demo_app.ui.profile.ProfileFragment"
+        android:label="ProfileFragment" />
+</navigation>

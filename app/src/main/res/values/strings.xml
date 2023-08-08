@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">E_Comm_Home_Demo_App</string>
+    <string name="prescriptions">Prescriptions</string>
+    <string name="home">Home</string>
+    <string name="categories">Categories</string>
+    <string name="offers">Offers</string>
+    <string name="profile">Profile</string>
+    <string name="network_error_msg">Network Failure occurred</string>
+    <string name="something_went_wrong_msg">Profile</string>
+</resources>
